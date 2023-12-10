@@ -27,7 +27,7 @@ describe("index.html", () => {
       expect(link, hint1).to.have.attribute("rel", "stylesheet");
       const hint2 =
         "Make sure you provide a relative path to main.css from index.html";
-      expect(link, hint2).to.have.attribute("href", "./main.css");
+      expect(link, hint2).to.have.attribute("href", "main.css");
     });
   });
 
